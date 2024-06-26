@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/pinkish.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  gap: 1rem;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.title {
+  font-size: 4rem;
+  letter-spacing: 1.5rem;
+  color: rgb(0, 0, 0);
+}
+
+.subtitle {
+  font-weight: 200;
+  letter-spacing: 1.5rem;
+  color: rgb(0, 0, 0);
+}
+
+.description {
+  letter-spacing: 0.1rem;
+  color: rgb(0, 0, 0);
+  padding-top: 1rem;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 2rem;
+  gap: 5rem;
+  height: fit-content;
+  color: #000000;
+  background-color: rgb(215, 109, 157);
+}
+
+& .btn {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.301);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  font-size: 1.2rem;
+  border: 2px solid rgba(255, 255, 255, 0.212);
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--color-primary-1);
+  overflow: hidden;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: rgb(0, 0, 0);
+    color: #e1e33a;
+    transform: translateY(-3px);
+  }
+  &.active {
+    background: rgba(222, 126, 172, 0.479);
+  }
+}
