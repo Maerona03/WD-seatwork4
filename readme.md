@@ -22,9 +22,6 @@
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-
 ![](https://visit-counter.vercel.app/counter.png?page=Maerona03/WD-seatwork4)
 
 ---
@@ -67,8 +64,8 @@ Description of the project in details.
 
 Guiding Question:
 
-- What is the project
-- Whats the purpose
+- What is the project - Create a Features Display Website showcasing distinct design layouts for different features using pure HTML and CSS.
+- Whats the purpose - This project aims to show the different style of Features Display Website, using the HTML and CSS.
 - What are key components
 - What technology used and how it is used
 
@@ -78,8 +75,9 @@ Guiding Question:
 <!-- The following are just sample -->
 
 - MultiPage Website
-- Parallax transition
-- Transactional
+- Hover Effect
+- Cards
+- Features Design
 
 ### Technology
 
@@ -87,7 +85,6 @@ Guiding Question:
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 
@@ -126,8 +123,11 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
-
-| Title        | Purpose                                                                       | Link          |
-| ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Title        | Purpose                                        | Link                                               |
+| ------------ | ---------------------------------------------- | -------------------------------------------------- |
+| Crocs        | Use it as a product and look for design ideas. | https://crocs.com.ph/                              |
+| AquaFlask    | Use it as a product and look for design ideas. | https://aquaflask.com/                             |
+| Pexel        | Download some free images for the product.     | https://www.pexels.com/search/crocs%20shoes/       |
+| Google Font  | Use the poppins font style.                    | https://fonts.google.com/selection/embed           |
+| Font Awesome | Use some icons for footer.                     | https://fontawesome.com/kits/6baf9c22b9/setup      |
+| w3schools    | Get some ideas or tutorial for css.            | https://www.w3schools.com/css/css3_backgrounds.asp |
