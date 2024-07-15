@@ -14,7 +14,7 @@
 <div align="center">
   This seatwork aims to convey the immersive and educational nature of
           the Features Display Website, <br />
-          emphasizing the practical applications of HTML and CSS in crafting
+          emphasizing the practical applications of HTML and CSS in creating
           effective and visually appealing design layouts.
 </div>
 
